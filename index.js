@@ -57,6 +57,6 @@ return  parseInt(string, 10);
 
 }
 function preserveDecimal(string){
-    parseFloat(string, 10);
-    return string;
+  return  parseFloat(string, 10);
+
 }
