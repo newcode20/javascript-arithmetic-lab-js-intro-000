@@ -56,7 +56,7 @@ function makeInt(string){
   parseInt('string', 10);
   return parseInt();
 }
-function perserveDecimal(string){
+function preserveDecimal(string){
     parseFloat('string', 10);
     return parseFloat();
 }
