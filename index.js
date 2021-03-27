@@ -60,6 +60,7 @@ function perserveDecimal(string){
     parseFloat(string, 10);
     return parseFloat(string);
 }
+
 function makeInt(string){
     parseInt(string, 10)
     return string;
