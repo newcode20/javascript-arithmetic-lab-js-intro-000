@@ -1,7 +1,20 @@
-add(1+80)
-subtract(60-40)
-multiply(2*3.4)
-divide(5.0/2.5)
+var number;
+function add(a, b){
+  number = a + b;
+  return number;
+}
+function subtract(a, b){
+  number = a- b;
+  return number;
+}
+function multiply(a, b){
+  number = a * b;
+  return number;
+}
+function divide(a,b){
+  number = a / b;
+  return number;
+}
 
 var number = 10
 
