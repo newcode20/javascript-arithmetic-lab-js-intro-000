@@ -53,15 +53,10 @@ function decrement(number){
 }
 
 function makeInt(string){
-  parseInt('string', 10);
-  return parseInt();
+  parseInt(string, 10);
+  return string;
 }
 function preserveDecimal(string){
-    parseFloat('string', 10);
-    return parseFloat();
-}
-
-function makeInt(string){
-    parseInt(string, 10)
+    parseFloat(string, 10);
     return string;
 }
