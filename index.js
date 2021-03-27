@@ -54,11 +54,11 @@ function decrement(number){
 
 function makeInt(string){
   parseInt(string, 10);
-  return parseInt(string);
+  return parseInt();
 }
 function perserveDecimal(string){
     parseFloat(string, 10);
-    return parseFloat(string);
+    return parseFloat();
 }
 
 function makeInt(string){
