@@ -44,18 +44,23 @@ divideBy3()
 console.log(number)
 
 function increment(number){
-  number ++
+  number ++;
+  return number;
 }
 function decrement(number){
-  number--
+  number--;
+  return number;
 }
 
 function makeInt(string){
-  parseInt(string, 10)
+  parseInt(string, 10);
+  return string;
 }
 function perserveDecimal(string){
-    parseFloat(string, 10)
+    parseFloat(string, 10);
+    return string;
 }
 function makeInt(string){
     parseInt(string, 10)
+    return string;
 }
